@@ -91,7 +91,7 @@ ORDER BY 4 DESC
 
 SELECT*
 FROM Covid_Death dea
-Join Covid_Death vac
+Join Covid_Vaccination vac
 	on dea.location = vac.location
 	and dea.date = vac.date
 
